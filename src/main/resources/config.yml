@@ -1,0 +1,3 @@
+messages:
+  undedicated_message: "You are still a barbarian on this server and are unable to attack other Sanctuaries."
+  dedicated_message: "Dedicated status set."

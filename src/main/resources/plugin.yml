@@ -1,0 +1,21 @@
+name: prelude
+version: 0.1
+description: A player tracking plugin
+load: STARTUP
+author: psygate
+main: com.psygate.minecraft.spigot.sovereignty.prelude.Prelude
+depends: [nucleus]
+
+commands:
+  forcededicate:
+    description: Forces a player to be dedicated.
+    usage: /forcededicate <playername> <true|false>
+    default: op
+  preludeinfo:
+    description: Displays prelude status.
+    usage: /preludeinfo
+    default: true
+  preludereload:
+    description: Reloads the configuration.
+    usage: /preludereload
+    default: op
